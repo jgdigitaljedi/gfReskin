@@ -9,7 +9,7 @@ This reskin does the following:
 - Changes icons to something more modern and flat
 - Adds shadows and removes some borders
 
-## To install project and make changes:
+## To install project and make changes (for developers):
 
 - You must have Node installed
 - You must install [this chrome extension](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en)
@@ -21,7 +21,7 @@ $ npm i
 $ npm run compile
 ```
 
-## To just use my theme on your machine:
+## To just use my theme on your machine (for casual users or someone that just wants to use the theme):
 
 - You must install [this chrome extension](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en)
 - go to www.guitarforums.com and open the chrome extension
