@@ -4,6 +4,7 @@ var gulp = require("gulp");
 var sass = require("gulp-sass");
 var uglify = require("gulp-uglify-es").default;
 let rename = require("gulp-rename");
+let cleanCSS = require("gulp-clean-css");
 
 sass.compiler = require("node-sass");
 
@@ -11,6 +12,20 @@ gulp.task("sass", function() {
   return gulp
     .src("src/*.scss")
     .pipe(sass().on("error", sass.logError))
+    .pipe(
+      cleanCSS({ debug: true }, details => {
+        console.log(
+          `${details.name} size before minification: ${
+            details.stats.originalSize
+          }`
+        );
+        console.log(
+          `${details.name} size after minification: ${
+            details.stats.minifiedSize
+          }`
+        );
+      })
+    )
     .pipe(gulp.dest("compiled"));
 });
 

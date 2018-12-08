@@ -3,12 +3,12 @@ $darkBrown: #502419;
 $white: #fbfbf2;
 $green: #384d48;
 $dark: #02111b;
-$blue: #87BCDE;
-$darkBlue: #083D77;
-$yellow: #E3D26F;
-$red: #A62639;
-$orange: #F18F01;
-$brightGreen: #23CE6B;
+$blue: #87bcde;
+$darkBlue: #083d77;
+$yellow: #e3d26f;
+$red: #a62639;
+$orange: #f18f01;
+$brightGreen: #23ce6b;
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900");
 $lato: "Lato", sans-serif;
@@ -30,7 +30,6 @@ $mons: "Francois One", sans-serif;
   }
 }
 
-
 body {
   background: $mainBrown;
   color: $dark;
@@ -48,12 +47,12 @@ body {
   tr {
     border: none !important;
     // border-collapse: collapse !important;
-	}
-	table td.tfoot,
-	.smallfont form select,
-	input.button {
-		@include box_shadow(2);
-	}
+  }
+  table td.tfoot,
+  .smallfont form select,
+  input.button {
+    @include box_shadow(2);
+  }
 }
 a:link,
 body_alink {
