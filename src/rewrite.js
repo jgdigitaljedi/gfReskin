@@ -477,7 +477,7 @@ imgArr.forEach(item => {
     changeIcon(item, ["fas", "fa-newspaper"], "#083D77");
   }
 
-  // collapse thread
+  // collapse thead
   if (
     item.src ===
     "https://www.guitarforums.com/guitarforum/buttons/collapse_thead.gif"
@@ -485,11 +485,57 @@ imgArr.forEach(item => {
     changeIcon(item, ["fas", "fa-angle-double-up"], "#fbfbf2");
   }
 
-  // collapse thread alt
+  // collapse thread alt (tcat)
   if (
     item.src ===
     "https://www.guitarforums.com/guitarforum/buttons/collapse_tcat.gif"
   ) {
     changeIcon(item, ["fas", "fa-angle-double-up"], "#fbfbf2");
+  }
+
+  // guitar old post
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/forum_old.gif"
+  ) {
+    item.src = "https://i.imgur.com/w7YyVJd.png";
+  }
+
+  // guitar new post
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/forum_new.gif"
+  ) {
+    item.src = "https://i.imgur.com/f6zf4Kb.png";
+  }
+
+  // post reply button
+  if (
+    item.src === "https://www.guitarforums.com/guitarforum/buttons/reply.gif"
+  ) {
+    item.src = "https://i.imgur.com/CyUD8N0.png";
+  }
+
+  // quote button
+  if (
+    item.src === "https://www.guitarforums.com/guitarforum/buttons/quote.gif"
+  ) {
+    item.src = "https://i.imgur.com/dlFGSvr.png";
+  }
+
+  // multi-quote button
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/buttons/multiquote_off.gif"
+  ) {
+    item.src = "https://i.imgur.com/T6CEQLD.png";
+  }
+
+  // quick reply button
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/buttons/quickreply.gif"
+  ) {
+    item.src = "https://i.imgur.com/qS3h8J2.png";
   }
 });
