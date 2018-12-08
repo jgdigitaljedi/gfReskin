@@ -36,4 +36,4 @@ $ npm run compile
 
 ## License
 
-MIT
+None. This was done super quickly and is just very simple styling code. As a starting point I actually copied the site's css into a scss file to start modifying. It's just a theme to be used with a chrome extension to view the site differently. Do what you want with it!
