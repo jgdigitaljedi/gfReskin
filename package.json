@@ -1,0 +1,36 @@
+{
+  "name": "gfreskin",
+  "version": "1.0.0",
+  "description": "Styles and scripts used with a Chrome extension to resking guitarforums.com",
+  "main": "rewrite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgdigitaljedi/gfReskin.git"
+  },
+  "keywords": [
+    "guitarforums",
+    "gulp",
+    "scss",
+    "javascript",
+    "reskin"
+  ],
+  "author": "Joey Gauthier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgdigitaljedi/gfReskin/issues"
+  },
+  "homepage": "https://github.com/jgdigitaljedi/gfReskin#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "node-sass": "^4.10.0"
+  }
+}
