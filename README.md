@@ -16,7 +16,7 @@ This reskin does the following:
 
 ```sh
 $ git clone https://github.com/jgdigitaljedi/gfReskin
-$ cd gfResking
+$ cd gfReskin
 $ npm i
 $ npm run compile
 ```
@@ -31,7 +31,7 @@ $ npm run compile
 
 ### Todos
 
-- restlye buttons
+- restyle buttons
 - deeper look at other parts of the site to restyle
 
 ## License
