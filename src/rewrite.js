@@ -477,6 +477,11 @@ imgArr.forEach(item => {
     changeIcon(item, ["fas", "fa-newspaper"], "#083D77");
   }
 
+  // thumbtack/sticky thread icon
+  if (item.src === "https://www.guitarforums.com/guitarforum/misc/sticky.gif") {
+    changeIcon(item, ["fas", "fa-thumbtack"], "#083D77");
+  }
+
   // collapse thead
   if (
     item.src ===
@@ -537,5 +542,10 @@ imgArr.forEach(item => {
     "https://www.guitarforums.com/guitarforum/buttons/quickreply.gif"
   ) {
     item.src = "https://i.imgur.com/qS3h8J2.png";
+  }
+
+  // gf logo
+  if (item.src === "https://www.guitarforums.com/guitarforum/gf_logo.gif") {
+    item.src = "https://i.imgur.com/l4eT06a.png";
   }
 });
