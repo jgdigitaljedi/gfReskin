@@ -538,6 +538,24 @@ imgArr.forEach(item => {
     changeIcon(item, ["fas", "fa-file-import", "fa-2x"], "#083d77");
   }
 
+  // moderators birthday
+  if (
+    item.src === "https://www.guitarforums.com/guitarforum/misc/birthday.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-birthday-cake", "fa-2x"], "#87bcde", {
+      prop: "padding",
+      value: "4px"
+    });
+  }
+
+  // moderators small trash can
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/misc/trashcan_small.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-trash-alt"], "#083d77");
+  }
+
   // guitar old post
   if (
     item.src ===
