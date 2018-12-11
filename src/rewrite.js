@@ -498,6 +498,46 @@ imgArr.forEach(item => {
     changeIcon(item, ["fas", "fa-angle-double-up"], "#fbfbf2");
   }
 
+  // moderators no new posts
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/thread.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-envelope-square", "fa-2x"], "#384d48");
+  }
+
+  // moderators thread close
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/thread_lock.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-lock", "fa-2x"], "#384d48");
+  }
+
+  // moderators hot thread no new posts
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/thread_hot.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-fire", "fa-2x"], "#f18f01");
+  }
+
+  // moderators - user invisible
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/thread_dot.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-dot-circle", "fa-2x"], "#f18f01");
+  }
+
+  // moderators you have posted
+  if (
+    item.src ===
+    "https://www.guitarforums.com/guitarforum/statusicon/thread_dot.gif"
+  ) {
+    changeIcon(item, ["fas", "fa-file-import", "fa-2x"], "#083d77");
+  }
+
   // guitar old post
   if (
     item.src ===
